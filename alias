@@ -1,0 +1,13 @@
+#
+# Alias
+#
+
+alias dzulum='cd ~/dzulum.github.io/'
+alias letras='cd ~/dzulum.github.io/_drafts/Letras-Muertas/'
+alias desde='cd ~/dzulum.github.io/_drafts/Letras-Muertas/"Desde el infierno"'
+alias cust='cd ~/.custom/'
+alias bloomerfield='cd ~/bloomerfield/'
+alias pantalla='cd ~/Videos/; ffmpeg -f x11grab -video_size 1200x800 -framerate 25 -i $DISPLAY -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac $1'
+alias webcam='cd ~/Videos/; ffmpeg -f v4l2 -video_size 640x480 -i /dev/video0 -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac $1'
+alias txz='tar -Jcvf $1 $2'
+alias capturar='cat "$1" > date "+%y%m%d%T".txt'
